@@ -289,7 +289,7 @@ const Map = () => {
               <Suspense fallback={null}>
                 <ambientLight intensity={1} />
                 <pointLight position={[10, 10, 10]} />
-                <LandmarkModel url="/models/tt.glb" /> 
+                <LandmarkModel url="/tt.glb" /> 
                 <OrbitControls enableZoom={true} />
               </Suspense>
             </Canvas>
