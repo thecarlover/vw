@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, Suspense } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei'; // Import useGLTF
+import { OrbitControls, useGLTF } from '@react-three/drei'; 
 import { createRoot } from 'react-dom/client';
 import '../../src/Map.css';
 
